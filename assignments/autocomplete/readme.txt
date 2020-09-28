@@ -76,24 +76,12 @@ numberOfMatches():  Theta(log n)
  *  Also include any resources (including the web) that you may
  *  may have used in creating your design.
  **************************************************************************** */
-resources:
-I used website assignment page, the checklist.
-I read the java comparator and Arrays.copyOf() documentation.
-I discussed with my P04 classmate Christian Venturella for BinarySearchDeluxe
-ideas before implementation.
-I asked question on Ed about BinarySearch and a pmd warning.
+
 
 /* *****************************************************************************
  *  Describe any serious problems you encountered.
  **************************************************************************** */
-I had a difficulty running the BinarySearchDeluxe, as I first designed
-to find a match through the original BinarySearch algorithms and
-go forward/backward.
-I realized that it doesn't match the required performance,
-so I first tried to pipeline the original binary search with a second
-searching algorithm, but failed on that.
-So I discussed this problem with Christian Venturella and I learned that
-modifying the original binary search into the two methods might be a way out.
+
 
 /* *****************************************************************************
  *  If you worked with a partner, assert below that you followed
