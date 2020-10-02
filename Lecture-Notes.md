@@ -13,5 +13,5 @@ dependent of given array order
 Stable? Yes  
 In-Place? Yes  
 
-**Mergesort (top-down)** \
+**Mergesort (top-down)** 
 
