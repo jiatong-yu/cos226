@@ -1,12 +1,12 @@
 ## Sorting
-**proposition: campare-based sorting algs has Ω(NlogN) compares** 
+**proposition: campare-based sorting algs has Ω(NlogN) compares**  
 def: A sorting algorithm is *in-place* if it uses ≤ c log n extra space  
 [best, average, worst]  
   
 **Selection Sort**     
 independent of given array order.  
 ~ Compares: [1/2 n^2, 1/2 n^2, 1/2 n^2]  
-~ Exch: n
+~ Exch: n  
 Stable? No (*swapping kth element with smallest*)  
 In-Place? Yes  
 
