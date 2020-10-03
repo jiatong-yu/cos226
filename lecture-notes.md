@@ -1,4 +1,4 @@
-## Soring
+## Sorting
 **proposition: campare-based sorting algs has Ω(NlogN) compares** 
 def: A sorting algorithm is *in-place* if it uses ≤ c log n extra space  
 [best, average, worst]  
