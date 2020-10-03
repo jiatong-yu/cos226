@@ -25,6 +25,9 @@ Compares(n) <= Compares(n/2) + Compares(n/2) + n *(draw a tree)*
 ~ Array Access: 6n log n *(2N for copy array, 2N for move back, <= 2N for compare)*  
 Stable? Yes  
 In-Place? No  *o(n) extra space*  
+**Timesort**  
+use natural subarray sets (with pre-existing order) to merge  
+~ Compares: [n, n log n, n log n]  
 
 **Quicksort (2-way partitioning)**   
 shuffle, and recursively {use a[0] as base, divide into two subarray through returned value of partition}  
