@@ -19,7 +19,7 @@ In-Place? Yes
 
 **Mergesort (top-down)**   
 recursively divide and sort subarrays, *merge* for order  
-**asymptotically optimal** *(worst case & any array ~ n log n)  
+**asymptotically optimal** *(worst case & any array ~ n log n)*  
 Compares(n) <= Compares(n/2) + Compares(n/2) + n *(draw a tree)*  
 ~ Compares: [1/2n log n,n log n, n log n]  
 ~ Array Access: 6n log n *(2N for copy array, 2N for move back, <= 2N for compare)*  
