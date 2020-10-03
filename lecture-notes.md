@@ -3,7 +3,7 @@
 def: A sorting algorithm is *in-place* if it uses ≤ c log n extra space  
 [best, average, worst]  
   
-]**Selection Sort**     
+**Selection Sort**     
 independent of given array order.  
 ~ Compares: [1/2 n^2, 1/2 n^2, 1/2 n^2]  
 ~ Exch: n
@@ -43,6 +43,15 @@ solution: after every partition, prune out the impossible half
 performance: state-of-art o(n) *different from BinarySearch in that 1.BS assumes ordered array 2.BS given key find index*  
 **3-way partitioning**    
 ~Compares: [n, n log n, n log n] *for duplicated keys array*  
+
+**Heapsort**  
+method: construct maxPQ in bottom-up order  
+~ construction: 2n compare, n exchange *starting with n/2, n--*  
+~ sorting: [(n log n), 2n log n , 2n log n]  
+only in-place algs with omega(n log n)  
+
+
+
 
 
 
