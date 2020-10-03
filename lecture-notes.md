@@ -48,6 +48,8 @@ performance: state-of-art o(n) *different from BinarySearch in that 1.BS assumes
 method: construct maxPQ in bottom-up order  
 ~ construction: 2n compare, n exchange *starting with n/2, n--*  
 ~ sorting: [(n log n), 2n log n , 2n log n]  
+Stable? No  
+In-Place? Yes  
 only in-place algs with omega(n log n)  
 
 
