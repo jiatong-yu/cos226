@@ -3,7 +3,7 @@
 def: A sorting algorithm is *in-place* if it uses ≤ c log n extra space  
 [best, average, worst]  
   
-<span style="background-color: FF8F00">**Selection Sort**</span>    
+]**Selection Sort**     
 independent of given array order.  
 ~ Compares: [1/2 n^2, 1/2 n^2, 1/2 n^2]  
 ~ Exch: n
