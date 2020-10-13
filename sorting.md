@@ -1,4 +1,6 @@
 # Sorting
+![summary chart](file:///Users/jiatongyu/Desktop/Screen%20Shot%202020-10-04%20at%201.40.24%20AM.png)  
+
 **proposition: campare-based sorting algs has Ω(NlogN) compares**  
 def: A sorting algorithm is *in-place* if it uses ≤ c log n extra space  
 [best, average, worst]  
