@@ -30,3 +30,10 @@ double[][] | ~ 8 n^2
   
   examples: (https://us.edstem.org/courses/638/lessons/5007/slides/23114)  
   
+**Notes**  
+if there is nested class inside:  
+private class | private static class  
+------- | --------  
+object overhead: 16 | object overhead: 16  
+need to keep track | static, no need to keep track  
+tracking: 8 | tracking: 0  
