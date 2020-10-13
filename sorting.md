@@ -1,5 +1,18 @@
 # Sorting
-![summary chart](file:///Users/jiatongyu/Desktop/Screen%20Shot%202020-10-04%20at%201.40.24%20AM.png)  
+  
+  algs | inplace | stable | best | average | worst | remarks  
+  ---- | ---- | ---- | ---- | ---- | ---- | ----  
+  selection sort | 1 | 0 | 1/2 n^2 | 1/2 n^2 | 1/2 n^2 | exch ~ n  
+  insertion sort | 1 | 1 | n | 1/4 n^2 | 1/2 n^2 | use for small n or partially sorted arrays  
+  mergesort | 0 | 1 | 1/2 n log n | n log n | n log n | O(nlogn) guarantee; stable  
+  timsort* | 0 | 1 | n | n log n | n log n | improves *mergesort* when pre-existing order  
+  quicksort | 1 | 0 | n log n | 2 n log n | 1/2 n^2 | O(nlogn) probablistic guarantee (shuffle); fastest in practice  
+  3-way quicksort* | 1 | 0 | n | 2 n ln n | 1/2 n^2 | for duplicate keys  
+  heapsort | 1 | 0 | 3 n | 2 n log n | 2 n log n | O(nlogn) guarantee; in-place  
+  OPEN RESEARCH | 1 | 1 | n | n log n | n log n | 
+  
+  
+  
 
 **proposition: campare-based sorting algs has Ω(NlogN) compares**  
 def: A sorting algorithm is *in-place* if it uses ≤ c log n extra space  
