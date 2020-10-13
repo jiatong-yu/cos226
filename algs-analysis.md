@@ -12,7 +12,9 @@ double | 8
 long | 8  
   
 **arrays**  
-*array overhead = 24*  
+*array of objects:*  
+(1) find object size  
+(2) + 8N for references inside array  
 datatype | memory usage  
 -------- | --------  
 bool[] | 1n + 24 (array overhead)  
