@@ -4,11 +4,11 @@
   ---- | ---- | ---- | ---- | ---- | ---- | ----  
   selection sort | 1 | 0 | 1/2 n^2 | 1/2 n^2 | 1/2 n^2 | exch ~ n  
   insertion sort | 1 | 1 | n | 1/4 n^2 | 1/2 n^2 | use for small n or partially sorted arrays  
-  mergesort | 0 | 1 | 1/2 n log n | n log n | n log n | O(nlogn) guarantee; stable; **crux: merging makes order**    
+  mergesort | 0 | 1 | 1/2 n log n | n log n | n log n | O(nlogn) guarantee; stable;   
   timsort* | 0 | 1 | n | n log n | n log n | improves *mergesort* when pre-existing order  
-  quicksort | 1 | 0 | n log n | 2 n log n | 1/2 n^2 | O(nlogn) probablistic guarantee (shuffle); fastest in practice; **crux: partitioning makes order**    
+  quicksort | 1 | 0 | n log n | 2 n log n | 1/2 n^2 | O(nlogn) probablistic guarantee (shuffle); fastest in practice;   
   3-way quicksort* | 1 | 0 | n | 2 n ln n | 1/2 n^2 | for duplicate keys  
-  heapsort | 1 | 0 | 3 n | 2 n log n | 2 n log n | only omega(nlogn) in-place algs; **crux: Max/MinPQ delete (log n) n times (n)**
+  heapsort | 1 | 0 | 3 n | 2 n log n | 2 n log n | only omega(nlogn) in-place algs; 
   OPEN RESEARCH | 1 | 1 | n | n log n | n log n | 
   
   
