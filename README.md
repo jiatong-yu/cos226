@@ -1,2 +1,2 @@
-# cos226-notes
-Practice problems from algs4.
+# cos226
+Practice problems from COS226: Algorithms and Data Structure
