@@ -3,7 +3,7 @@
  *  NetID:    jiatongy
  *  Precept:  P04
  *
- *  Partner Name:   I didn't have a partner
+ *  Partner Name:  NA
  *  Partner NetID:
  *  Partner Precept:
  *
