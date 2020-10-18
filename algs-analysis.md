@@ -39,3 +39,12 @@ private class | private static class
 object overhead: 16 | object overhead: 16  
 need to keep track | static, no need to keep track  
 tracking: 8 | tracking: 0  
+
+## Notations  
+notation | provides | example | represents  
+-- | -- | -- | --  
+tilda (~) | leading term | ~ 2 n^2 | 2 n^2 + n + 1  
+theta (Θ) | order of growth | Θ(n^2) | 2 n^2 + n + 1  
+big O (O) | upper bound | O(n^2) | **Θ(n^2) or smaller**: n^2, n, log n ...  
+omega (Ω) | lower bound | Ω(n^2) | **Θ(n^2) or larger**: n^2, n^3, n^2logn ...  
+
