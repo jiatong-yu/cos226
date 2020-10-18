@@ -5,6 +5,8 @@
   **Binary Heap**  
   heap-order (1) key stored in *array*, (2) parent key is larger than its two children keys (3) last row filled from left to right  
   heap array order = level order  
+  **crux**: swim(x) takes at most 1 + log N compare   
+            sink(x) takes at most log2 N compare  
   insertion: omega(log N + 1)  
   deletion: omega( 2 * log N)
   
