@@ -31,7 +31,7 @@ standard BST | (n, log n) | (n, log n) | (n, sqrt(n) | 1
 
 
 ## LL Red-Black BST  
-**2-3 tree**: (1)Symmetric order (2) perfect balance (*every path has same length*)  
+**2-3 tree**: (1)Symmetric order (2) perfect balance (*every path **from null** to root has same length*)  
 *note: perfect balance could be tricky: a 3node must link to three children or no children*  
 min height: log 3 n  
 max height: log 2 n  
