@@ -51,6 +51,9 @@ shuffle, and recursively {use a[0] as base, divide into two subarray through ret
 ~ Exch: *avg* 1/3n ln n  
 Stable? No 
 In-Place? Yes  
+**one partition call**  
+~ n comp() worst case  
+~ n exch() worst case (one exch() for an element strickly smaller than a[0])  
 **quick select**  
 given: for every partition, a[j] (base) is in the right index    
 query: find the kth value (given sorted index, find item)    
