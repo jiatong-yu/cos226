@@ -46,11 +46,13 @@ public class Bipartite {
         // TODO[4]: we reach this return if no color issues above
         return true;
     }
-    ```
+```
+  
+  
     
-    
-    ### Cycle Detection  
-    If a vertex is marked and active, we found a cycle. Meaning, if we encounter a vertex again while we are currently exploring a path that already visits this vertex, we found a cycle.
+### Cycle Detection  
+
+If a vertex is marked and active, we found a cycle. Meaning, if we encounter a vertex again while we are currently exploring a path that already visits this vertex, we found a cycle.
 
 ```java
 public class CycleFinder {
