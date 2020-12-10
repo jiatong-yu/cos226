@@ -11,7 +11,7 @@ float | 4
 double | 8  
 long | 8  
   
-### Arrays
+## Arrays
 *Array of Objects:*  
 (1) find object size  
 (2) + 8N for references inside array  
@@ -31,7 +31,7 @@ bool[][] | ~ 1 n^2
 int[][] | ~ 4 N^2  
 double[][] | ~ 8 n^2  
   
-### Objects
+## Objects
   
 *object overhead = 16*  
 *object reference = 8*  
@@ -47,7 +47,7 @@ object overhead: 16 | object overhead: 16
 need to keep track | static, no need to keep track  
 tracking: 8 | tracking: 0  
 
-## Notations  
+### Notations  
 notation | provides | example | represents  
 -- | -- | -- | --  
 tilda (~) | leading term | ~ 2 n^2 | 2 n^2 + n + 1  
