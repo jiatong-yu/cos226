@@ -11,13 +11,13 @@ float | 4
 double | 8  
 long | 8  
   
-**Arrays**  
+### Arrays
 *Array of Objects:*  
 (1) find object size  
 (2) + 8N for references inside array  
 (3) overhead = 24  
 
-*Common mem for Object[]:*  
+__Common mem for Object[]:__ 
 - created, not initialzied: 8n + 32  
 - created, initialized: each object take x, (8+x) n + 32  
   
@@ -31,7 +31,7 @@ bool[][] | ~ 1 n^2
 int[][] | ~ 4 N^2  
 double[][] | ~ 8 n^2  
   
-**objects**  
+### Objects
   
 *object overhead = 16*  
 *object reference = 8*  
