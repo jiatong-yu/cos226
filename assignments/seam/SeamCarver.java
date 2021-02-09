@@ -249,5 +249,28 @@ public class SeamCarver {
 
 
     public static void main(String[] args) {
+        Picture pic = SCUtility.randomPicture(
+                Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+        SeamCarver seam = new SeamCarver(pic);
+        StdOut.println("size of image received: "
+                               + "(" + seam.width() + ", " + seam.height() + ")");
+        StdOut.println("horizontal seam: ");
+        int[] hori = seam.findHorizontalSeam();
+        for (int i = 0; i < hori.length; i++) StdOut.print(hori[i] + " ");
+        StdOut.println();
 
+        StdOut.println("vertical seam: ");
+        int[] vert = seam.findVerticalSeam();
+        for (int i = 0; i < vert.length; i++) StdOut.print(vert[i] + " ");
+
+        StdOut.println(seam.energy(0, 0));
+
+
+        seam.removeHorizontalSeam(hori);
+        StdOut.println("successful remove hori");
+        seam.removeVerticalSeam(seam.findVerticalSeam());
+        StdOut.println("successful remove verti");
+        pic = seam.picture();
+        pic.show();
+    }
 }
