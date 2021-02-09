@@ -101,13 +101,13 @@ if it's the champion so far.
                                  running time
 method                  best case            worst case
 --------------------------------------------------------
-length()                theta(1)            theta(E+V reachable)
+length()                theta(1)            theta(E+V)
 
-ancestor()              theta(1)            theta(E+V reachable)
+ancestor()              theta(1)            theta(E+V)
 
-lengthSubset()          theta(1)            theta(E+V reachable)
+lengthSubset()          theta(1)            theta(E+V)
 
-ancestorSubset()        theta(1)            theta(E+V reachable)
+ancestorSubset()        theta(1)            theta(E+V)
 
 
 
